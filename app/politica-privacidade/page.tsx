@@ -1,0 +1,1 @@
+export default function Page(){return (<main className='mx-auto max-w-3xl px-4 py-12 prose'><h1>Política de Privacidade</h1><p>Texto provisório. Atualize com seu jurídico.</p></main>)}
