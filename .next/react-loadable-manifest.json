@@ -1,0 +1,8 @@
+{
+  "node_modules\\@typebot.io\\react\\dist\\index.js -> ./web.js": {
+    "id": "node_modules\\@typebot.io\\react\\dist\\index.js -> ./web.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_typebot_io_react_dist_web_js.js"
+    ]
+  }
+}
