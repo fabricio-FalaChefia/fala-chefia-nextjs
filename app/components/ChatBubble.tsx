@@ -10,7 +10,6 @@ export default function ChatBubble() {
         apiHost="https://typebot.co"
         theme={{
           button: {
-            radius: 14,
             backgroundColor: "#111827",
             iconColor: "#FFFFFF",
           },
