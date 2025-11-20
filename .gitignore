@@ -1,0 +1,15 @@
+# Pastas para ignorar
+node_modules/
+.next/
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Cache do sistema
+.DS_Store
+
+# Logs
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
