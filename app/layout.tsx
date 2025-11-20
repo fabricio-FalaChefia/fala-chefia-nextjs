@@ -1,16 +1,23 @@
-import "./globals.css";
+import './globals.css';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import ChatBubble from './components/ChatBubble';
 
-export const metadata = {
-  title: "Fala, Chefia!",
-  description: "IA prática para o dono do negócio",
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: 'Fala, Chefia!',
+  description: 'IA prática para o dono do negócio: finanças, vendas e RH no WhatsApp.',
 };
 
-import ChatBubble from "./components/ChatBubble";
-
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="pt-BR">
-      <body>
+      <body className={inter.className}>
         {children}
         <ChatBubble />
       </body>
