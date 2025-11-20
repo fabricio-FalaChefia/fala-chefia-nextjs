@@ -47,7 +47,7 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-3">
               <a
-                href="https://wa.me/554998127888?text=Quero%20testar%20o%20Fala%20Chefia"
+                href="https://wa.me/5547991945151?text=Quero%20testar%20o%20Fala%20Chefia"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-full bg-sky-600 px-5 py-3 text-sm font-semibold text-white hover:bg-sky-700"
@@ -233,7 +233,7 @@ export default function Home() {
             </ul>
 
             <a
-              href="https://wa.me/554998127888?text=Quero%20assinar%20o%20Fala%20Chefia"
+              href="https://wa.me/5547991945151?text=Quero%20assinar%20o%20Fala%20Chefia"
               target="_blank"
               rel="noreferrer"
               className="inline-flex w-full justify-center rounded-full bg-sky-600 px-5 py-3 text-sm font-semibold text-white hover:bg-sky-700"
