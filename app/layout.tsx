@@ -21,7 +21,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="pt-BR">
       <body className={inter.className}>
         {children}
-        <ChatBubble />
       </body>
     </html>
   );
